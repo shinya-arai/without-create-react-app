@@ -1,0 +1,9 @@
+@mixin button {
+  button {
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 30px;
+    width: 20%;
+  }
+}
+$brown: rgb(180, 81, 81);

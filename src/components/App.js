@@ -1,16 +1,16 @@
 import React from 'react';
 import Counter from './Counter';
 import { hot } from 'react-hot-loader';
+// import styles from '../appScss.scss';
 
-class Index extends React.Component {
-  render() {
-    return (
-      <div>
-        <Counter />
-        <h2>This is Component</h2>
-      </div>
-    );
-  }
-}
+const App = (props) => (
+  <div>
+    <Counter />
+    <h2>これはh2</h2>
+    <p>ここはIndex</p>
+    <p>ここはIndex</p>
+    <p>{props.text}</p>
+  </div>
+);
 
-export default hot(module)(Index);
+export default hot(module)(App);

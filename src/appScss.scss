@@ -1,0 +1,12 @@
+@import './styles';
+.app {
+  color: red;
+  p {
+  background-color: yellow;
+  color: red;
+  }
+  h2 {
+  color:$brown;
+  }
+  @include button;
+}
