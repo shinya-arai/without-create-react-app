@@ -10,6 +10,11 @@ const htmlPlugin = new HtmlWebpackPlugin({
 module.exports = {
   mode: 'production',
   entry: './src/index.js',
+  // devServer: {
+  //   contentBase: path.join(__dirname, 'public'),
+  //   port: 3000,
+  //   compress: true,
+  // },
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public')
